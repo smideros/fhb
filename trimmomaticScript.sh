@@ -18,4 +18,4 @@ java -jar /home/apps/trimmomatic/trimmomatic-0.36/trimmomatic-0.36.jar PE \
 ~/trimming/AX2331_GTTTCGGA_L001_R1_001.UnpairedOutput.trimmed.fastq \
 ~/trimming/AX2331_GTTTCGGA_L001_R2_001.PairedOutput.trimmed.fastq \
 ~/trimming/AX2331_GTTTCGGA_L001_R2_001.UnpairedOutput.trimmed.fastq \
-ILLUMINACLIP:TruSeq3-PE.fa:2:30:10
+ILLUMINACLIP:~/trimming/TruSeq3-PE.fa:2:30:10
