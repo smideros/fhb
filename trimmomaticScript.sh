@@ -12,11 +12,9 @@ module load trimmomatic/0.36
 cd ~/trimming/
 java -jar /home/apps/trimmomatic/trimmomatic-0.36/trimmomatic-0.36.jar PE \
 -threads 2 -phred33 \
--trimlog AX2331_GTTTCGGA_L001_R1_001.trimlog.txt \ 
--trimlog AX2331_GTTTCGGA_L001_R2_001.trimlog.txt \
--basein ~/rawdata/AX2331_GTTTCGGA_L001_R1_001.fastq \
+~/rawdata/AX2331_GTTTCGGA_L001_R1_001.fastq \
 ~/rawdata/AX2331_GTTTCGGA_L001_R2_001.fastq \
--baseout ~/trimming/AX2331_GTTTCGGA_L001_R1_001.PairedOutput.trimmed.fastq \
+~/trimming/AX2331_GTTTCGGA_L001_R1_001.PairedOutput.trimmed.fastq \
 ~/trimming/AX2331_GTTTCGGA_L001_R1_001.UnpairedOutput.trimmed.fastq \
 ~/trimming/AX2331_GTTTCGGA_L001_R2_001.PairedOutput.trimmed.fastq \
 ~/trimming/AX2331_GTTTCGGA_L001_R2_001.UnpairedOutput.trimmed.fastq \
